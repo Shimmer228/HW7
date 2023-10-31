@@ -1,0 +1,331 @@
+body{
+    font-family: Montserrat;
+}
+.menu-header{
+    height: 60px;
+    border-bottom: 1px solid var(--Border-Grey, #EBE8F4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Logo{
+    display: inline;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.logo-link{
+    text-decoration: none;
+    color: #22202E;
+    font-size: 24px;
+}
+
+.main-nav{
+    display: inline;
+    margin-left: 300px;
+}
+.main-nav-list{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 44px;
+    list-style: none;
+}
+.main-nav-item{
+    color: #726E8D;
+    font-family:sans-serif;
+    display: inline;
+    text-decoration: none;
+    font-size: 16px;
+}
+.right-buttons-list{
+    display: inline;
+    list-style: none;
+    margin-left: 150px;
+}
+.RB-buttons{
+    display: inline;
+    margin-right: 15px;
+}
+
+.RB-list-search{
+   
+    background-image:url(../img/search.svg);
+    background-size: cover;
+     color: transparent;
+}
+.RB-list-bin{
+    display: inline;
+    background-image:url(../img/shopping--cart.svg);
+    background-size: cover;
+     color: transparent;
+}
+.RB-list-cabinet{
+    display: inline;
+    background-image:url(../img/user--avatar.svg);
+    background-size: cover;
+     color: transparent;
+}
+.page-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+    font-size: 36px;
+    margin-top: 50px;
+    color: var(--Dark-Primary, #2A254B);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    position: relative;
+    
+}
+.right-menu { 
+    margin-left: 760px;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+.submenu li:hover {
+    background: #f1f1f1;
+}
+.Option-chooser{
+    display: inline;
+    margin-right: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 0.3fr);
+    margin-top: 35px;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.product-item {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.product-item img {
+    width: 305px;
+    height: 375px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    margin-left: 25px;
+    text-align: left;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%
+}
+
+.product-item p {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Open Sans;
+    margin-left: 25px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-align: left;
+    margin-top: -5px;
+}
+.join-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-collection{
+    text-decoration: none;
+    color: #2A254B;
+    font-family: Open Sans;
+    font-size: 16px;
+}
+.join-club{
+    display: flex;
+    width: 1440px;
+    height: 521px;
+    margin-top: 50px;
+}
+.join-background{
+    background-image: url(../img/join-background.jpg);
+    width: 720px;
+    height: 521px;
+}
+.join-club-text{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 70px;
+}
+.join-title{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-top: 50px;
+}
+.join-text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Open Sans;
+    font-size: 16px;
+
+}
+.sign-up {
+    background-color: var(--Dark-Primary, #2A254B);; 
+    margin-top: 250px;
+    padding: 16px 32px;
+    align-items: flex-start;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    gap: 10px;
+    border: none; 
+    cursor: pointer; 
+}
+.page-footer{
+    justify-content: left;
+    background: var(--Dark-Primary, #2A254B);
+}
+.footer-content {
+    display: flex;
+    width: 1440px;
+    height: 380px;
+    gap: 100px;
+}
+
+.list {
+    margin-top: 70px;
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.list li {
+    margin: 5px 0;
+    color: var(--White, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.list li a{
+    text-decoration: none;
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.map{
+    width: 642px;
+    height: 195px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.botom{
+    display: inline-block;
+    width: 1440px;
+    justify-content: center;
+    margin:auto;
+}
+.footer-line {
+    border: 1px solid #4E4D93;
+    width: 1400px;
+}
+
+.cop-text {
+    font-size: 16px; 
+    color: #666;
+    margin-left: 90px; 
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.Copyrights{
+    display: flex;
+}
+.logos{
+        display: inline-block;
+        margin-left: 950px;
+        list-style: none;
+        display: flex;
+}
+.logos li{
+    display: inline;
+    margin-right: 15px;
+}
+.bot-linkedin{
+    background-image:url(../img/logo--linkedin.svg);
+    background-size: cover;
+    color: transparent;
+}
+.facebook{
+    background-image:url(../img/logo--facebook.svg);
+    background-size: cover;
+    color: transparent;
+}
+.instagram{
+    background-image:url(../img/logo--instagram.svg);
+    background-size: cover;
+    color: transparent;
+}
+.skype{
+    background-image:url(../img/logo--skype.svg);
+    background-size: cover;
+    color: transparent;
+}
+.pinterest{
+    background-image:url(../img/logo--pinterest.svg);
+    background-size: cover;
+    color: transparent;
+}
+.twitter{
+    background-image:url(../img/logo--pinterest.svg);
+    background-size: cover;
+    color: transparent;
+}
+
