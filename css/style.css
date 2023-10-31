@@ -280,7 +280,7 @@ body{
 .cop-text {
     font-size: 16px; 
     color: #666;
-    margin-left: 90px; 
+    margin-left: 80px; 
     margin-bottom: 0px;
     padding-bottom: 10px;
     display: inline-block;
@@ -324,7 +324,7 @@ body{
     color: transparent;
 }
 .twitter{
-    background-image:url(../img/logo--pinterest.svg);
+    background-image:url(../img/logo--twitter.svg);
     background-size: cover;
     color: transparent;
 }
